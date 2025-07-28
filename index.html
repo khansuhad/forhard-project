@@ -436,6 +436,7 @@
            
                 if (totalPrice >= 200) {
                     applyButton.disabled = false;
+                    inTotalPriceElement.textContent = `$${totalPrice.toFixed(2)}`;
                 } else {
                     applyButton.disabled = true;
                     couponCodeInput.value = '';
