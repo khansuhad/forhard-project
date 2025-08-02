@@ -8,28 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        .hero-about {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1580310614655-644a4a246c85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            padding: 100px 0;
-        }
-        .team-member img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 5px solid #f8f9fa;
-        }
-        .value-card {
-            transition: transform 0.3s;
-        }
-        .value-card:hover {
-            transform: translateY(-10px);
-        }
-    </style>
+    <link rel="stylesheet" href="/CSS/index.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -46,20 +25,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="products.html">Products</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link active" href="about.html">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
+
                 </ul>
                 <div class="d-flex">
-                    <a href="#" class="btn btn-outline-primary me-2">Login</a>
-                    <a href="#" class="btn btn-primary">
+         
+                    <a href="#" class="btn btn-danger">
                         <i class="fas fa-shopping-cart me-1"></i> Cart
+                        <span class="badge bg-danger ms-1" id="cart-count">0</span>
                     </a>
                 </div>
             </div>

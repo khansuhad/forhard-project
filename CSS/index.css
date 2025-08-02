@@ -1,0 +1,74 @@
+       .hero-about {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1580310614655-644a4a246c85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #f8f9fa;
+        }
+        .value-card {
+            transition: transform 0.3s;
+        }
+        .value-card:hover {
+            transform: translateY(-10px);
+        }
+        .hero-section {
+            padding: 60px 0;
+        }
+        .discount-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #E527B2;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .product-card {
+            transition: transform 0.3s ease;
+            margin-bottom: 20px;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .product-img-container {
+            background-color: #F8F8F8;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+        .product-img {
+            max-height: 160px;
+            object-fit: contain;
+        }
+        .coupon-input {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .coupon-btn {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        .summary-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .navbar-brand img {
+            height: 40px;
+        }
+        .promo-code {
+            font-family: monospace;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+        }
